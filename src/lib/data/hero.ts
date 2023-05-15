@@ -2,8 +2,8 @@ export type Slide = {
     src: string,
     height: number,
     width: number,
-    brightness: string,
-    moveMobile: { x: string, scale: string }
+    brightness?: string,
+    moveMobile?: { x: string, scale: string }
 }
 const slides: Slide[] = [
     { src: '/hero/home', height: 706, width: 1200, brightness: '0.35', moveMobile: { x: "88%", scale: "1" } },

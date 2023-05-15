@@ -7,6 +7,11 @@
 	const description =
 		'Sky Studio – студія з крилами в Ужгороді. До ваших послуг 4 фотозони, вінілові фони, світло Godox та інші аксесуари. Також доступні крила янгола в оренду';
 	const index = 0;
+	const articleImage = {
+		src: '/home-social',
+		height: 870,
+		width: 870
+	};
 </script>
 
 <svelte:head>
@@ -20,7 +25,7 @@
 		imagesizes="100vw"
 		type="image/avif"
 	/>
-	<ArticleSchemaMarkup {title} {description} image={slides[index]} route="/" />
+	<ArticleSchemaMarkup {title} {description} image={articleImage} route="/" />
 </svelte:head>
 
 <Hero />
