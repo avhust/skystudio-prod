@@ -5,15 +5,16 @@
 	import Hero from '$lib/Hero.svelte';
 	import ContactUs from '$lib/ContactUs.svelte';
 	import { slides, getSrcSet } from '$lib/data/hero';
+	import ArticleSchemaMarkup from '$lib/ArticleSchemaMarkup.svelte';
+	const title = 'Про нашу студію – Скай студія Ужгород, фотостудія з крилами';
+	const description =
+		'Фотостудія Скай в Ужгороді - це єдина фотостудія з орендою крил ангела. Це студія, де можна орендувати крила для зйомки. Cкай студія Ужгород чекає на вас!';
 	const index = 5;
 </script>
 
 <svelte:head>
-	<title>Про нашу студію – Скай студія Ужгород, фотостудія з крилами</title>
-	<meta
-		name="description"
-		content="Фотостудія Скай в Ужгороді - це єдина фотостудія з орендою крил ангела. Це студія, де можна орендувати крила для зйомки. Cкай студія Ужгород чекає на вас!"
-	/>
+	<title>{title}</title>
+	<meta name="description" content={description} />
 	<link
 		rel="preload"
 		as="image"
@@ -22,6 +23,7 @@
 		imagesizes="100vw"
 		type="image/avif"
 	/>
+	<ArticleSchemaMarkup {title} {description} image={slides[index]} route="/pro" />
 </svelte:head>
 
 <Hero slideNo={index} />

@@ -5,15 +5,16 @@
 	import Hero from '$lib/Hero.svelte';
 	import ContactUs from '$lib/ContactUs.svelte';
 	import { slides, getSrcSet } from '$lib/data/hero';
+	import ArticleSchemaMarkup from '$lib/ArticleSchemaMarkup.svelte';
+	const title = 'Фотозони Sky Studio – зали фотостудії з крилами в Ужгороді';
+	const description =
+		'В Cкай студії є різні фотозони: циклорама, ніжний зал, діловий зал, кольорові фони та зал Pole Dance. Sky Studio – єдина студія з пілоном в Ужгороді!';
 	const index = 1;
 </script>
 
 <svelte:head>
-	<title>Фотозони Sky Studio – зали фотостудії з крилами в Ужгороді</title>
-	<meta
-		name="description"
-		content="В Cкай студії є різні фотозони: циклорама, ніжний зал, діловий зал, кольорові фони та зал Pole Dance. Sky Studio – єдина студія з пілоном в Ужгороді!"
-	/>
+	<title>{title}</title>
+	<meta name="description" content={description} />
 	<link
 		rel="preload"
 		as="image"
@@ -22,6 +23,7 @@
 		imagesizes="100vw"
 		type="image/avif"
 	/>
+	<ArticleSchemaMarkup {title} {description} image={slides[index]} route="/fotozony" />
 </svelte:head>
 
 <Hero slideNo={index} />

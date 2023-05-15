@@ -6,15 +6,16 @@
 	import { slides, getSrcSet } from '$lib/data/hero';
 	import Expandable from '$lib/Expandable.svelte';
 	import SlideShow from '$lib/SlideShow.svelte';
+	import ArticleSchemaMarkup from '$lib/ArticleSchemaMarkup.svelte';
+	const title = 'Сукні для оренди в Sky Studio - фотостудія Ужгород';
+	const description =
+		'В SKY Studio є сукні для оренди, корона, вінки, босоніжки - все необхідне для вашої фотозйомки. Чекаємо вас в Скай студії в Ужгороді. Аксесуари безкоштовні.';
 	const index = 4;
 </script>
 
 <svelte:head>
-	<title>Сукні для оренди в Sky Studio - фотостудія Ужгород</title>
-	<meta
-		name="description"
-		content="В SKY Studio є сукні для оренди, корона, вінки, босоніжки - все необхідне для вашої фотозйомки. Чекаємо вас в Скай студії в Ужгороді. Аксесуари безкоштовні."
-	/>
+	<title>{title}</title>
+	<meta name="description" content={description} />
 	<link
 		rel="preload"
 		as="image"
@@ -23,6 +24,7 @@
 		imagesizes="100vw"
 		type="image/avif"
 	/>
+	<ArticleSchemaMarkup {title} {description} image={slides[index]} route="/sukni" />
 </svelte:head>
 
 <Hero slideNo={index} />

@@ -5,15 +5,16 @@
 	import Expandable from '$lib/Expandable.svelte';
 	import SlideShow from '$lib/SlideShow.svelte';
 	import { slides, getSrcSet } from '$lib/data/hero';
+	import ArticleSchemaMarkup from '$lib/ArticleSchemaMarkup.svelte';
+	const title = 'Техніка Sky Studio – обладнання фотостудії в Ужгороді';
+	const description =
+		'В Sky Studio є вся необхідна техніка для фотозйомки – світло Godox, кольорові фільтри, проекційна насадка, маски Gobo, портретна тарілка, софтбокс і т.п. ';
 	const index = 2;
 </script>
 
 <svelte:head>
-	<title>Техніка Sky Studio – обладнання фотостудії в Ужгороді</title>
-	<meta
-		name="description"
-		content="В Sky Studio є вся необхідна техніка для фотозйомки – світло Godox, кольорові фільтри, проекційна насадка, маски Gobo, портретна тарілка, софтбокс і т.п. "
-	/>
+	<title>{title}</title>
+	<meta name="description" content={description} />
 	<link
 		rel="preload"
 		as="image"
@@ -22,6 +23,7 @@
 		imagesizes="100vw"
 		type="image/avif"
 	/>
+	<ArticleSchemaMarkup {title} {description} image={slides[index]} route="/tekhnika" />
 </svelte:head>
 
 <Hero slideNo={index} />

@@ -5,15 +5,16 @@
 	import Expandable from '$lib/Expandable.svelte';
 	import SlideShow from '$lib/SlideShow.svelte';
 	import ContactUs from '$lib/ContactUs.svelte';
+	import ArticleSchemaMarkup from '$lib/ArticleSchemaMarkup.svelte';
+	const title = 'Крила для оренди в Sky Studio – фотостудія в Ужгороді';
+	const description =
+		'Скай студія в Ужгороді надає крила ангела в оренду. Фотостудія SKY надає крила для дітей і для дорослих, патріотичні крила і крила з натурального пірʼя.';
 	const index = 3;
 </script>
 
 <svelte:head>
-	<title>Крила для оренди в Sky Studio – фотостудія в Ужгороді</title>
-	<meta
-		name="description"
-		content="Скай студія в Ужгороді надає крила ангела в оренду. Фотостудія SKY надає крила для дітей і для дорослих, патріотичні крила і крила з натурального пірʼя."
-	/>
+	<title>{title}</title>
+	<meta name="description" content={description} />
 	<link
 		rel="preload"
 		as="image"
@@ -22,6 +23,7 @@
 		imagesizes="100vw"
 		type="image/avif"
 	/>
+	<ArticleSchemaMarkup {title} {description} image={slides[index]} route="/kryla" />
 </svelte:head>
 
 <Hero slideNo={index} />
