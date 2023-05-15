@@ -1,0 +1,745 @@
+$breakpoint: 768px;
+$breakpoint2: 870px;
+
+section {
+	background-color: white;
+
+	.container {
+		max-width: 1200px;
+		padding: 3rem 1rem;
+		margin: 0 auto;
+		width: auto;
+
+		@media screen and (min-width: $breakpoint) {
+			width: calc(100% - 2rem);
+		}
+	}
+}
+
+.infoLineNew {
+	border: 2px solid var(--lightColor);
+	border-radius: 3rem;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	align-items: center;
+	padding: 1rem;
+	min-height: 4rem;
+	// padding: 1rem 1rem 1rem clamp(1rem, 7vw, 2.5rem);
+
+	@media screen and (min-width: $breakpoint) {
+		flex-direction: row;
+		padding: 1rem 1.2rem 1rem 3rem;
+	}
+
+	.text {
+		font-weight: 600;
+		font-size: 1.1rem;
+		padding: 1rem 0.5rem;
+		text-align: center;
+
+		@media screen and (min-width: $breakpoint) {
+			padding: 1rem;
+			font-size: 1.2rem;
+		}
+
+		a {
+			color: var(--darkColor);
+			font-weight: normal;
+		}
+	}
+
+	.price {
+		font-size: 1.5rem;
+		font-weight: 600;
+
+		@media screen and (min-width: $breakpoint) {
+			font-size: 1.7rem;
+		}
+	}
+}
+
+.contactUsLine {
+	border: 2px solid var(--lightColor);
+	border-radius: 3rem;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	align-items: center;
+	padding: 1rem;
+	min-height: 4rem;
+	// padding: 1rem 1rem 1rem clamp(1rem, 7vw, 2.5rem);
+
+	@media screen and (min-width: $breakpoint) {
+		flex-direction: row;
+		padding: 1rem 1.2rem 1rem 3rem;
+	}
+
+	.text {
+		font-weight: 600;
+		font-size: 1.1rem;
+		padding: 1rem 0.5rem;
+		text-align: center;
+
+		@media screen and (min-width: $breakpoint) {
+			padding: 1rem;
+			font-size: 1.2rem;
+		}
+
+		a {
+			color: var(--darkColor);
+			font-weight: normal;
+		}
+	}
+}
+
+.infoLine {
+	border: 2px solid var(--lightColor);
+	border-radius: 3rem;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	align-items: center;
+	padding: 1rem;
+	// padding: 1rem 1rem 1rem clamp(1rem, 7vw, 2.5rem);
+
+	@media screen and (min-width: $breakpoint2) {
+		flex-direction: row;
+		padding: 1rem 1.2rem 1rem 3rem;
+	}
+
+	&.toRight {
+		padding: 1rem;
+
+		@media screen and (min-width: $breakpoint2) {
+			justify-content: flex-end;
+
+		}
+	}
+
+
+	.info {
+		display: flex;
+		width: 100%;
+		flex-direction: column;
+		font-size: 1.4rem;
+		align-items: center;
+		margin-bottom: 3rem;
+
+		@media screen and (min-width: $breakpoint2) {
+			width: 35%;
+			flex-direction: row;
+			justify-content: space-around;
+			font-size: 1.2rem;
+			margin-bottom: 0;
+		}
+
+		&.spacy {
+			font-size: 1.2rem;
+
+			@media screen and (min-width: $breakpoint2) {
+				justify-content: flex-start;
+				font-size: 1.4rem;
+			}
+		}
+
+		a,
+		span {
+			padding: 0.5rem 0;
+
+			@media screen and (min-width: $breakpoint2) {
+				padding: 0 0.5rem;
+			}
+
+			color: var(--color1);
+			transition: all 0.2s ease-in-out;
+
+		}
+
+		@media (hover: hover) and (pointer: fine) {
+			a:hover {
+				color: var(--accentDarkerColor);
+			}
+		}
+	}
+
+	.buttonWrapper {
+		display: flex;
+		width: 100%;
+		flex-direction: column;
+		align-items: center;
+
+		@media screen and (min-width: $breakpoint2) {
+			width: 500px;
+			flex-direction: row;
+			justify-content: space-evenly;
+		}
+
+		&.spacy {
+			.text {
+				min-width: 200px;
+				text-align: left;
+				font-size: 1rem;
+			}
+
+			@media screen and (min-width: $breakpoint2) {
+				width: 570px;
+				font-size: 1.1rem;
+
+				.text {
+					min-width: 300px;
+					font-size: 1.2rem;
+					text-align: right;
+				}
+			}
+
+			&>a {
+				@media screen and (min-width: $breakpoint2) {
+					margin-left: 0.5rem;
+					padding: 1rem 3rem;
+					white-space: nowrap;
+				}
+			}
+		}
+
+		.text {
+			font-weight: 600;
+			font-size: 1.2rem;
+			padding-bottom: 0.5rem;
+
+			@media screen and (min-width: $breakpoint2) {
+				padding-bottom: 0;
+			}
+
+			a {
+				color: var(--darkColor);
+				font-weight: normal;
+			}
+		}
+
+		.phonesWrapper {
+			display: flex;
+			flex-direction: column;
+			min-height: 4rem;
+			justify-content: center;
+
+			.price {
+				font-size: 1.7rem;
+				font-weight: 600
+			}
+
+			a {
+				white-space: nowrap;
+			}
+
+			&>a:first-child {
+				// margin-bottom: 1rem;
+			}
+		}
+
+		&>a,
+		& .phonesWrapper>a {
+			padding: 1rem 2rem;
+			color: white;
+			background-color: var(--darkColor);
+			border-radius: 30px;
+			transition: all 0.2s ease-in-out;
+
+			@media screen and (min-width: $breakpoint2) {
+				margin-left: 2rem;
+				padding: 1rem 3rem;
+
+			}
+
+			span {
+				transform: scale(1);
+				transition: all 0.2s ease-in-out;
+				transform-origin: center;
+				display: inline-block;
+			}
+
+			@media (hover: hover) and (pointer: fine) {
+				&:hover {
+					background-color: var(--lightColor);
+
+					span {
+						transform: scale(1.1);
+					}
+				}
+			}
+		}
+	}
+}
+
+.pps {
+	padding: 2rem 0 2rem 0;
+
+	@media screen and (min-width: $breakpoint) {
+		padding: 2rem 2rem 2rem 0;
+		// columns: 2;
+		// width: 50%;
+		font-size: 1.25rem;
+	}
+
+	p {
+		text-indent: 1.5rem;
+		line-height: 1.28;
+		margin: 0;
+		padding: 0 0 0.7rem 0;
+	}
+}
+
+.blockWithImage {
+	margin: 4rem 0;
+
+	@media screen and (min-width: $breakpoint) {
+		display: grid;
+		row-gap: 1rem;
+		grid:
+			'title image'
+			'text image'
+			/ 1fr 1fr;
+		grid-template-rows: min-content 1fr;
+	}
+
+	.title {
+		grid-area: title;
+		position: relative;
+		padding: 0 0 0.7rem 0.5rem;
+
+		h3 {
+			font-size: 1.7rem;
+			padding: 0;
+			margin: 0;
+			font-weight: 600;
+		}
+
+		h4 {
+			color: #9d9e9e;
+			font-weight: normal;
+			font-size: 1.4rem;
+			padding: 0;
+			margin: 0;
+			letter-spacing: -0.05rem;
+		}
+
+		&:after {
+			content: '';
+			display: block;
+			height: 2.5px;
+			background-color: var(--accentColor);
+			width: 37%;
+			left: 0;
+			bottom: 0;
+			position: absolute;
+		}
+	}
+
+	.text {
+		grid-area: text;
+		padding: 1rem 2rem 0.5rem 1rem;
+
+		@media screen and (min-width: $breakpoint) {
+			padding: 0 2rem 0 1rem;
+		}
+
+		p {
+			font-size: 1.1rem;
+			line-height: 1.25;
+			margin: 0;
+			padding: 0;
+			// padding: 0 0 0.5rem 0;
+		}
+
+		ul {
+			font-size: 1.1rem;
+			line-height: 1.25;
+			margin: 0;
+			padding: 0;
+			// padding: 0 0 0.5rem 0;
+		}
+	}
+
+	.image {
+		grid-area: image;
+
+		picture {
+			display: block;
+			height: 100%;
+			width: 100%;
+
+			img {
+				display: block;
+				height: 100%;
+				width: 100%;
+				object-fit: contain;
+			}
+		}
+	}
+}
+
+.blockWithNumber {
+	row-gap: 1rem;
+	margin: 4rem 0;
+
+	@media screen and (min-width: $breakpoint) {
+		display: grid;
+		grid:
+			'titles text'
+			/ 1fr 2fr;
+		grid-template-rows: min-content 1fr;
+	}
+
+	.title {
+		grid-area: titles;
+		position: relative;
+		padding: 0;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		align-self: center;
+
+		h3 {
+			position: relative;
+			width: 50%;
+			font-size: 6.2rem;
+			letter-spacing: -0.3rem;
+			color: #706F6F;
+			padding: 0 0 1rem 0;
+			margin: 0;
+			font-weight: normal;
+
+			@media screen and (min-width: $breakpoint) {
+				font-size: clamp(4rem, 9vw, 6.2rem);
+			}
+
+			&:after {
+				content: '';
+				display: block;
+				height: 2.5px;
+				background-color: var(--accentColor);
+				width: 132%;
+				left: 3%;
+				bottom: 0;
+				position: absolute;
+			}
+		}
+
+		h4 {
+			width: 30%;
+			padding: 0 20% 1rem 0;
+			color: #706F6F;
+			font-weight: normal;
+			font-size: 1.25rem;
+			line-height: 1;
+			margin: 0;
+			letter-spacing: -0.05rem;
+		}
+
+	}
+
+	.text {
+		grid-area: text;
+		padding: 1rem 0.5rem 0.5rem 0.5rem;
+		display: flex;
+		align-items: center;
+
+		@media screen and (min-width: $breakpoint) {
+			padding: 0 0 0 1rem;
+		}
+
+		p {
+			font-size: 1.1rem;
+			line-height: 1.3;
+			margin: 0;
+			padding: 0;
+			// padding: 0 0 0.5rem 0;
+		}
+	}
+}
+
+.blockWithImageAndButton {
+	row-gap: 1rem;
+	margin: 4rem 0;
+
+	@media screen and (min-width: $breakpoint) {
+		display: grid;
+		grid:
+			'title image'
+			'text image'
+			'button image'
+			/ 2fr 1fr;
+		grid-template-rows: min-content 1fr;
+	}
+
+	.title {
+		grid-area: title;
+		position: relative;
+		padding: 0 0 0.7rem 0.5rem;
+
+		h3 {
+			font-size: 1.7rem;
+			padding: 0;
+			margin: 0;
+			font-weight: 600;
+		}
+
+		h4 {
+			color: #9d9e9e;
+			font-weight: normal;
+			font-size: 1.4rem;
+			padding: 0;
+			margin: 0;
+			letter-spacing: -0.05rem;
+		}
+
+		&:after {
+			content: '';
+			display: block;
+			height: 2.5px;
+			background-color: var(--accentColor);
+			width: 37%;
+			left: 0;
+			bottom: 0;
+			position: absolute;
+		}
+	}
+
+	.text {
+		grid-area: text;
+		padding: 1rem 2rem 0.5rem 1rem;
+
+		@media screen and (min-width: $breakpoint) {
+			padding: 0 2rem 0 1rem;
+		}
+
+		strong {
+			font-weight: 600;
+		}
+
+		h3 {
+			font-size: 1.3rem;
+			font-weight: 600;
+		}
+
+		p {
+			font-size: 1.1rem;
+			line-height: 1.35;
+			margin: 1rem 0 .25rem 0;
+			// padding: 0;
+			padding: 0;
+		}
+
+		ul {
+			font-size: 1.1rem;
+			line-height: 1.5;
+			margin-top: 0;
+
+			// margin: 0;
+			// padding: 0;
+		}
+	}
+
+	.image {
+		grid-area: image;
+
+		picture {
+			display: block;
+			height: 100%;
+			width: 100%;
+
+			img {
+				display: block;
+				height: 100%;
+				width: 100%;
+				object-fit: contain;
+			}
+		}
+	}
+
+	.button {
+		grid-area: button;
+		display: flex;
+		width: 100%;
+		justify-content: center;
+
+		@media screen and (min-width: $breakpoint) {
+			justify-content: flex-end;
+		}
+
+		a {
+			padding: 1rem 2rem;
+			color: var(--darkColor);
+			border-color: var(--darkColor);
+			border-width: 2px;
+			border-style: solid;
+			border-radius: 30px;
+			transition: all 0.2s ease-in-out;
+			font-size: 1.2rem;
+			margin: 1rem auto;
+
+			@media screen and (min-width: $breakpoint) {
+				margin: 1rem 7% 1rem auto;
+				padding: 1rem 3rem;
+
+			}
+
+			span {
+				transform: scale(1);
+				transition: all 0.2s ease-in-out;
+				transform-origin: center;
+				display: inline-block;
+			}
+
+			@media (hover: hover) and (pointer: fine) {
+				&:hover {
+					background-color: var(--accentColor);
+					// border-color: var(--accentColor);
+
+					span {
+						transform: scale(1.1);
+					}
+				}
+			}
+		}
+	}
+}
+
+.blockMapWithImage {
+	margin: 4rem 0;
+
+	@media screen and (min-width: $breakpoint) {
+		display: grid;
+		column-gap: 2rem;
+		grid:
+			'map image'
+			/ 1fr 1fr;
+	}
+
+	.map {
+		grid-area: map;
+		position: relative;
+		padding: 0 0 0.7rem 0.5rem;
+		overflow: hidden;
+
+		img {
+			display: block;
+			width: 100%;
+			height: 100%;
+			object-fit: contain;
+			object-position: top;
+		}
+
+		@media screen and (min-width: $breakpoint) {
+
+			a,
+			picture {
+				display: block;
+			}
+
+			img {
+				display: block;
+				width: 100%;
+				object-fit: contain;
+				object-position: top;
+				max-height: 100vh;
+			}
+		}
+	}
+
+	.image {
+		grid-area: image;
+
+		picture {
+			display: block;
+			height: 100%;
+			width: 100%;
+
+			img {
+				display: block;
+				height: 100%;
+				width: 100%;
+				object-fit: contain;
+			}
+		}
+	}
+}
+
+.flexContainer {
+	@media screen and (min-width: $breakpoint) {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-evenly;
+		// gap: 2rem;
+	}
+
+	.item {
+		width: auto;
+		margin: 3rem 0 6rem;
+
+		@media screen and (min-width: $breakpoint) {
+			width: 29%;
+		}
+
+		.title {
+			position: relative;
+			padding: 0 0 0.7rem 0;
+
+			h3 {
+				font-size: 1.7rem;
+				padding: 0;
+				margin: 0;
+				font-weight: 600;
+				line-height: 0.8;
+				letter-spacing: -0.05rem;
+			}
+
+			&:after {
+				content: '';
+				display: block;
+				height: 2.5px;
+				background-color: var(--accentColor);
+				width: 37%;
+				left: 0;
+				bottom: 0;
+				position: absolute;
+			}
+		}
+
+		.subtitle {
+			min-height: 3.5rem;
+			// border: 1px solid red;
+			margin-top: 0.4rem;
+
+			h4 {
+				color: var(--darkColor);
+				font-weight: normal;
+				font-size: clamp(1.1rem, 1.7vw, 1.4rem);
+				padding: 0;
+				margin: 0;
+				letter-spacing: -0.05rem;
+			}
+		}
+
+		.image {
+
+			picture {
+				display: block;
+				height: 100%;
+				width: 100%;
+
+				@media screen and (min-width: $breakpoint) {
+					height: 380px;
+				}
+
+				img {
+					display: block;
+					height: 100%;
+					width: 100%;
+					object-fit: contain;
+					object-position: bottom;
+				}
+			}
+		}
+	}
+}

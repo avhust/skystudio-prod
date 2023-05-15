@@ -1,0 +1,67 @@
+:root {
+	--darkColor: #294c80;
+	--lightColor: #2d8fc5;
+	--accentColor: #FEC93C;
+	--accentDarkerColor: #FEC93C;
+	--font1: "ProximaNova", sans-serif;
+	--font2: "NotoSerif", serif;
+
+	--color: #0f0f16;
+
+	// --color0: #35545e;
+	// --color1: #C8C8C8;
+	// --color2: #00a8a8;
+	// --color3: #73B2CD;
+	// --color4: #f5f0f1;
+	// --color5: #FAFAFA;
+	// --colorDisabled: #E4E4E4;
+	// --colorLight: #BABABA;
+
+
+	// --lightThemeBackground: white;
+	// --lightThemeTextColor: #000;
+}
+
+:root {
+	--zoom: 0.9;
+}
+
+html {
+	// @media screen and (min-width: 768px) {
+	zoom: var(--zoom);
+	// }
+}
+
+html,
+body {
+	scroll-behavior: smooth;
+	scroll-padding: 6em;
+	padding: 0;
+	margin: 0;
+	background-color: var(--darkColor);
+	// background-color: #294c80;
+	font-size: 16px;
+}
+
+.noscroll {
+	overflow: hidden;
+}
+
+
+.site {
+	color: var(--color);
+
+	font-size: 16px;
+	font-family: var(--font1);
+	font-weight: 300;
+
+	a {
+		text-decoration: none;
+	}
+
+	@media (hover: hover) and (pointer: fine) {
+		a:hover {
+			text-decoration: none;
+		}
+	}
+}
