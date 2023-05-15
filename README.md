@@ -1,12 +1,5 @@
-# To Publish as Pages (Cloudflare)
 
-```bash
-CLOUDFLARE_ACCOUNT_ID=1e1fe9a2728582a17174a1c7160c393d npx wrangler pages publish build
-```
-
----
-
-## create-svelte
+# create-svelte
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
 
