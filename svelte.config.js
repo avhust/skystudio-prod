@@ -16,7 +16,10 @@ const config = {
 			// 	include: ['/*'],
 			// 	exclude: ['<all>']
 			// }
-		})
+		}),
+		prerender: {
+			entries: ['*', '/sitemap.xml'],
+		},
 	}
 };
 
