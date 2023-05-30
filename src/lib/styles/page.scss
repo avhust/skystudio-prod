@@ -351,7 +351,8 @@ section {
 			// padding: 0 0 0.5rem 0;
 		}
 
-		ul {
+		ul,
+		ol {
 			font-size: 1.1rem;
 			line-height: 1.25;
 			margin: 0;
@@ -375,6 +376,94 @@ section {
 				object-fit: contain;
 			}
 		}
+	}
+}
+
+.block2Columns {
+	margin: 4rem 0;
+
+	@media screen and (min-width: $breakpoint) {
+		display: grid;
+		row-gap: 1rem;
+		grid:
+			'title secondColumn'
+			'text secondColumn'
+			/ 66.6666% 33.3333%;
+		grid-template-rows: min-content 1fr;
+		// grid-template-columns: 2fr 1fr;
+	}
+
+	.title {
+		grid-area: title;
+		position: relative;
+		padding: 0 0 0.7rem 0.5rem;
+
+		h3 {
+			font-size: 1.7rem;
+			padding: 0;
+			margin: 0;
+			font-weight: 600;
+		}
+
+		h4 {
+			color: #9d9e9e;
+			font-weight: normal;
+			font-size: 1.4rem;
+			padding: 0;
+			margin: 0;
+			letter-spacing: -0.05rem;
+		}
+
+		&:after {
+			content: '';
+			display: block;
+			height: 2.5px;
+			background-color: var(--accentColor);
+			width: 37%;
+			left: 0;
+			bottom: 0;
+			position: absolute;
+		}
+	}
+
+	.text {
+		grid-area: text;
+		padding: 1rem 2rem 0.5rem 1rem;
+
+		@media screen and (min-width: $breakpoint) {
+			padding: 0 2rem 0 1rem;
+		}
+
+		strong {
+			font-weight: 600;
+		}
+
+		h3 {
+			font-size: 1.3rem;
+			font-weight: 600;
+		}
+
+		p {
+			font-size: 1.1rem;
+			line-height: 1.35;
+			margin: 1rem 0 .25rem 0;
+			// padding: 0;
+			padding: 0;
+		}
+
+		ul,
+		ol {
+			font-size: 1.1rem;
+			line-height: 1.5;
+			margin-top: 0;
+
+			// margin: 0;
+			// padding: 0;
+		}
+	}
+
+	.secondColumn {
+		grid-area: secondColumn;
 	}
 }
 
@@ -530,7 +619,8 @@ section {
 			padding: 0;
 		}
 
-		ul {
+		ul,
+		ol {
 			font-size: 1.1rem;
 			line-height: 1.5;
 			margin-top: 0;

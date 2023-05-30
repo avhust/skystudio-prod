@@ -177,7 +177,23 @@
 			</div>
 			<div class="image">
 				<Expandable breakpoint={768}>
-					<SlideShow width={1280} height={852} x2={true} slides={8} path="/i/fotozony/zal8" />
+					<SlideShow width={1280} height={852} x2={true} slides={9} path="/i/fotozony/zal8" />
+				</Expandable>
+			</div>
+		</div>
+		<div class="blockWithImage">
+			<div class="title">
+				<h3>Додатковий реквізит</h3>
+			</div>
+			<div class="text">
+				<p>
+					Додаткові реквізити для ваших фото: 2 куби - чорний і білий. Куби допоможуть
+					урізноманітнити ваші кадри і з ними можна реалізувати різні творчі ідеї.
+				</p>
+			</div>
+			<div class="image">
+				<Expandable breakpoint={768}>
+					<SlideShow width={1280} height={852} x2={true} slides={1} path="/i/fotozony/zal10" />
 				</Expandable>
 			</div>
 		</div>

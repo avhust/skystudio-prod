@@ -43,7 +43,7 @@
 			</div>
 			<div class="image">
 				<Expandable breakpoint={768}>
-					<SlideShow width={1280} height={852} x2={true} slides={47} path="/i/sukni/1-dorosli" />
+					<SlideShow width={1280} height={852} x2={true} slides={49} path="/i/sukni/1-dorosli" />
 				</Expandable>
 			</div>
 		</div>
