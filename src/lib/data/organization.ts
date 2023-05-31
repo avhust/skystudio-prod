@@ -21,7 +21,7 @@ const organization = {
     "url": "https://skystudio.uz.ua",
     "email": "contact@skystudio.uz.ua",
     "sameAs": [
-        "https://www.facebook.com/profile.php?id=100066553794844",
+        "https://www.facebook.com/skystudio.uz",
         "https://www.instagram.com/sky_studio_uzh/"
     ],
     "priceRange": "$15-$100",

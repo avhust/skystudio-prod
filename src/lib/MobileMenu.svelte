@@ -69,10 +69,7 @@
 				<a target="_blank" rel="noreferrer" href="https://www.instagram.com/sky_studio_uzh/"
 					><img style:--size="1.7rem" alt="instagram icon" src="/icons/insta.svg" /></a
 				>
-				<a
-					target="_blank"
-					rel="noreferrer"
-					href="https://www.facebook.com/profile.php?id=100066553794844"
+				<a target="_blank" rel="noreferrer" href="https://www.facebook.com/skystudio.uz"
 					><img alt="fb icon" src="/icons/fb.svg" /></a
 				>
 				<a target="_blank" rel="noreferrer" href="https://t.me/macwings"

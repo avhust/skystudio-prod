@@ -50,10 +50,7 @@
 				<a target="_blank" rel="noreferrer" href="https://www.instagram.com/sky_studio_uzh/"
 					><img style:--size="1.5rem" alt="instagram icon" src="/icons/insta-white.svg" /></a
 				>
-				<a
-					target="_blank"
-					rel="noreferrer"
-					href="https://www.facebook.com/profile.php?id=100066553794844"
+				<a target="_blank" rel="noreferrer" href="https://www.facebook.com/skystudio.uz"
 					><img alt="fb icon" src="/icons/fb-white.svg" /></a
 				>
 				<a target="_blank" rel="noreferrer" href="https://t.me/macwings"
