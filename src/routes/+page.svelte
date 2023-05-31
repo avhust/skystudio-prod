@@ -9,9 +9,9 @@
 		'Sky Studio – студія з крилами в Ужгороді. До ваших послуг 4 фотозони, вінілові фони, світло Godox та інші аксесуари. Також доступні крила янгола в оренду';
 	const index = 0;
 	const articleImage = {
-		src: '/home-social',
-		height: 870,
-		width: 870
+		src: '/home-social2',
+		height: 628,
+		width: 1200
 	};
 </script>
 
