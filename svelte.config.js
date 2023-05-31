@@ -9,6 +9,10 @@ const config = {
 	// for more information about preprocessors
 	preprocess: vitePreprocess(),
 
+	vitePlugin: {
+		inspector: true,
+	},
+
 	kit: {
 		adapter: adapter({
 			// See below for an explanation of these options
