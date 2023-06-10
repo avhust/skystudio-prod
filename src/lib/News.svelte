@@ -36,7 +36,6 @@
 			picture: { image: 'photo2-1x.jpg', width: 960, height: 1280 }
 		}
 	];
-	$: console.log(expanded);
 </script>
 
 {#key expanded}
