@@ -9,6 +9,7 @@
 </script>
 
 {#if image}
+	<meta property="og:image" content="https://skystudio.uz.ua/home-social2-1x.jpg" />
 	{@html `
 
 <script type="application/ld+json">
