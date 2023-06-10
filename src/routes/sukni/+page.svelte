@@ -43,7 +43,7 @@
 			</div>
 			<div class="image">
 				<Expandable breakpoint={768}>
-					<SlideShow width={1280} height={852} x2={true} slides={49} path="/i/sukni/1-dorosli" />
+					<SlideShow width={1280} height={852} x2={true} slides={52} path="/i/sukni/1-dorosli" />
 				</Expandable>
 			</div>
 		</div>
@@ -77,7 +77,7 @@
 			</div>
 			<div class="image">
 				<Expandable breakpoint={768}>
-					<SlideShow width={1280} height={852} x2={true} slides={11} path="/i/sukni/2-dytyachi" />
+					<SlideShow width={1280} height={852} x2={true} slides={12} path="/i/sukni/2-dytyachi" />
 				</Expandable>
 			</div>
 		</div>
@@ -106,6 +106,26 @@
 			<div class="image">
 				<Expandable breakpoint={768}>
 					<SlideShow width={1280} height={852} x2={true} slides={7} path="/i/sukni/5-aksesuary" />
+				</Expandable>
+			</div>
+		</div>
+		<div class="blockWithImage">
+			<div class="title">
+				<h3>Аксесуари</h3>
+				<h4>Оренда – 200 грн.</h4>
+			</div>
+			<div class="text">
+				<p />
+			</div>
+			<div class="image">
+				<Expandable breakpoint={768}>
+					<SlideShow
+						width={1280}
+						height={852}
+						x2={true}
+						slides={4}
+						path="/i/sukni/7-aksesuary-platno"
+					/>
 				</Expandable>
 			</div>
 		</div>

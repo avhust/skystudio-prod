@@ -89,7 +89,7 @@
 			</div>
 			<div class="image">
 				<Expandable breakpoint={768}>
-					<SlideShow width={1280} height={852} x2={true} slides={3} path="/i/fotozony/zal3" />
+					<SlideShow width={1280} height={852} x2={true} slides={5} path="/i/fotozony/zal3" />
 				</Expandable>
 			</div>
 		</div>
@@ -107,7 +107,7 @@
 			</div>
 			<div class="image">
 				<Expandable breakpoint={768}>
-					<SlideShow width={1280} height={852} x2={true} slides={4} path="/i/fotozony/zal4" />
+					<SlideShow width={1280} height={852} x2={true} slides={6} path="/i/fotozony/zal4" />
 				</Expandable>
 			</div>
 		</div>
@@ -124,7 +124,7 @@
 			</div>
 			<div class="image">
 				<Expandable breakpoint={768}>
-					<SlideShow width={1280} height={852} x2={true} slides={3} path="/i/fotozony/zal5" />
+					<SlideShow width={1280} height={852} x2={true} slides={4} path="/i/fotozony/zal5" />
 				</Expandable>
 			</div>
 		</div>
@@ -143,7 +143,7 @@
 			</div>
 			<div class="image">
 				<Expandable breakpoint={768}>
-					<SlideShow width={1280} height={852} x2={true} slides={5} path="/i/fotozony/zal6" />
+					<SlideShow width={1280} height={852} x2={true} slides={7} path="/i/fotozony/zal6" />
 				</Expandable>
 			</div>
 		</div>
@@ -177,7 +177,7 @@
 			</div>
 			<div class="image">
 				<Expandable breakpoint={768}>
-					<SlideShow width={1280} height={852} x2={true} slides={9} path="/i/fotozony/zal8" />
+					<SlideShow width={1280} height={852} x2={true} slides={9} path="/i/fotozony/stiltsi" />
 				</Expandable>
 			</div>
 		</div>
