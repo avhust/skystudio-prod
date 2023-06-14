@@ -4,6 +4,8 @@
 	import News from '$lib/News.svelte';
 	import { slides, getSrcSet } from '$lib/data/hero';
 	import ArticleSchemaMarkup from '$lib/ArticleSchemaMarkup.svelte';
+	import GCalendar from '$lib/GCalendar.svelte';
+	import ContactUs from '$lib/ContactUs.svelte';
 	const title = 'Фотостудія в Ужгороді – Скай студія з крилами ангела';
 	const description =
 		'Sky Studio – студія з крилами в Ужгороді. До ваших послуг 4 фотозони, вінілові фони, світло Godox та інші аксесуари. Також доступні крила янгола в оренду';
@@ -130,5 +132,7 @@
 				</picture>
 			</div>
 		</div>
+		<GCalendar />
+		<ContactUs />
 	</div>
 </section>
