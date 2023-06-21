@@ -21,7 +21,7 @@
 			<div class="news">
 				<div class="news-title">{title}</div>
 				<div class="news-date">{date}</div>
-				<div class="news-text">{@html text}</div>
+				<div class="news-text" data-sveltekit-reload>{@html text}</div>
 				<div class="news-image">
 					<Expandable breakpoint={768}>
 						<Picture x2={false} {width} {height} loading="eager" path="/i/news/{date}" {image} />
