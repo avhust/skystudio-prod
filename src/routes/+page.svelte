@@ -132,7 +132,9 @@
 				</picture>
 			</div>
 		</div>
-		<GCalendar />
+		<div id="calendar">
+			<GCalendar />
+		</div>
 		<ContactUs />
 	</div>
 </section>

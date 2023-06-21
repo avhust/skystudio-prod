@@ -11,10 +11,12 @@
 	export let kind = 'header'; // header|footer
 </script>
 
-{#each menu[lang] as { title, href }}
-	<a class:lighter={kind === 'footer'} {href} {title} class:current={href === $page.url.pathname}
-		>{title}</a
-	>
+{#each menu[lang] as { title, href, showInNavigation }}
+	{#if showInNavigation}
+		<a class:lighter={kind === 'footer'} {href} {title} class:current={href === $page.url.pathname}
+			>{title}</a
+		>
+	{/if}
 {/each}
 
 <style lang="scss">

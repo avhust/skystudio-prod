@@ -69,6 +69,20 @@
 		</div>
 		<div class="blockWithImage">
 			<div class="title">
+				<h3>Інший одяг для дорослих</h3>
+				<h4>Оренда – 200 грн</h4>
+			</div>
+			<div class="text">
+				<p />
+			</div>
+			<div class="image">
+				<Expandable breakpoint={768}>
+					<SlideShow width={1280} height={852} x2={true} slides={4} path="/i/sukni/8-odyah" />
+				</Expandable>
+			</div>
+		</div>
+		<div class="blockWithImage">
+			<div class="title">
 				<h3>Дитячі сукні</h3>
 				<h4>Оренда – 100 грн</h4>
 			</div>
@@ -77,7 +91,7 @@
 			</div>
 			<div class="image">
 				<Expandable breakpoint={768}>
-					<SlideShow width={1280} height={852} x2={true} slides={12} path="/i/sukni/2-dytyachi" />
+					<SlideShow width={1280} height={852} x2={true} slides={15} path="/i/sukni/2-dytyachi" />
 				</Expandable>
 			</div>
 		</div>

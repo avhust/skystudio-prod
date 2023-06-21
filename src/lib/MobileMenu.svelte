@@ -52,15 +52,17 @@
 				<a href="/"><img src="/skystudio_logo.svg" alt="Logo SkyStudio" /></a>
 			</div>
 			<ul>
-				{#each menu[lang] as { title, href }}
-					<li>
-						<a
-							{href}
-							{title}
-							aria-current={href === $page.url.pathname ? 'page' : 'false'}
-							class:current={href === $page.url.pathname}>{title}</a
-						>
-					</li>
+				{#each menu[lang] as { title, href, showInNavigation }}
+					{#if showInNavigation}
+						<li>
+							<a
+								{href}
+								{title}
+								aria-current={href === $page.url.pathname ? 'page' : 'false'}
+								class:current={href === $page.url.pathname}>{title}</a
+							>
+						</li>
+					{/if}
 				{/each}
 			</ul>
 			<div class="social">

@@ -348,6 +348,24 @@
 				</Expandable>
 			</div>
 		</div>
+		<div class="blockWithImage">
+			<div class="title">
+				<h3>Відбивач 5 в 1</h3>
+				<h4>Visico RD-024, 91 х 122 см</h4>
+			</div>
+			<div class="text">
+				<p>
+					Маємо такий універсальний відбивач світла в студії. Є 5 різних варіацій: білий, чорний,
+					срібний, золотий і білий напівпрозорий. Відбивач світла використовують для контролю
+					освітлення, зменшення тіней та створення бажаного ефекту при фотографуванні.
+				</p>
+			</div>
+			<div class="image">
+				<Expandable breakpoint={768}>
+					<SlideShow width={1280} height={852} x2={true} slides={6} path="/i/tekhnika/tekh19" />
+				</Expandable>
+			</div>
+		</div>
 		<ContactUs />
 	</div>
 </section>
