@@ -43,7 +43,7 @@
 			</div>
 			<div class="image">
 				<Expandable breakpoint={768}>
-					<SlideShow width={1280} height={852} x2={true} slides={52} path="/i/sukni/1-dorosli" />
+					<SlideShow width={1280} height={852} x2={true} slides={53} path="/i/sukni/1-dorosli" />
 				</Expandable>
 			</div>
 		</div>
@@ -77,7 +77,7 @@
 			</div>
 			<div class="image">
 				<Expandable breakpoint={768}>
-					<SlideShow width={1280} height={852} x2={true} slides={4} path="/i/sukni/8-odyah" />
+					<SlideShow width={1280} height={852} x2={true} slides={5} path="/i/sukni/8-odyah" />
 				</Expandable>
 			</div>
 		</div>
@@ -105,7 +105,7 @@
 			</div>
 			<div class="image">
 				<Expandable breakpoint={768}>
-					<SlideShow width={1280} height={852} x2={true} slides={5} path="/i/sukni/3-vesilni" />
+					<SlideShow width={1280} height={852} x2={true} slides={4} path="/i/sukni/3-vesilni" />
 				</Expandable>
 			</div>
 		</div>
@@ -153,7 +153,7 @@
 			</div>
 			<div class="image">
 				<Expandable breakpoint={768}>
-					<SlideShow width={1280} height={852} x2={true} slides={4} path="/i/sukni/6-vzuttya" />
+					<SlideShow width={1280} height={852} x2={true} slides={5} path="/i/sukni/6-vzuttya" />
 				</Expandable>
 			</div>
 		</div>

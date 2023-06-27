@@ -186,7 +186,7 @@
 				</div>
 				<div class="image">
 					<Expandable breakpoint={768}>
-						<SlideShow width={1280} height={852} x2={true} slides={4} path="/i/fotozony/idei" />
+						<SlideShow width={1280} height={852} x2={true} slides={5} path="/i/fotozony/idei" />
 					</Expandable>
 				</div>
 			</div>
