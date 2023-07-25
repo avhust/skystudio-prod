@@ -696,9 +696,10 @@ section {
 }
 
 .blockMapWithImage {
-	margin: 4rem 0;
+	margin: 0;
 
 	@media screen and (min-width: $breakpoint) {
+		margin: 1rem 0;
 		display: grid;
 		column-gap: 2rem;
 		grid:
@@ -706,35 +707,43 @@ section {
 			/ 1fr 1fr;
 	}
 
+	&>div {
+		margin-bottom: 2rem;
+
+		@media screen and (min-width: $breakpoint) {
+			margin-bottom: 0;
+		}
+	}
+
 	.map {
 		grid-area: map;
 		position: relative;
-		padding: 0 0 0.7rem 0.5rem;
+		padding: 0;
 		overflow: hidden;
 
-		img {
-			display: block;
-			width: 100%;
-			height: 100%;
-			object-fit: contain;
-			object-position: top;
-		}
+		// img {
+		// 	display: block;
+		// 	width: 100%;
+		// 	height: 100%;
+		// 	object-fit: contain;
+		// 	object-position: top;
+		// }
 
-		@media screen and (min-width: $breakpoint) {
+		// @media screen and (min-width: $breakpoint) {
 
-			a,
-			picture {
-				display: block;
-			}
+		// 	a,
+		// 	picture {
+		// 		display: block;
+		// 	}
 
-			img {
-				display: block;
-				width: 100%;
-				object-fit: contain;
-				object-position: top;
-				max-height: 100vh;
-			}
-		}
+		// 	img {
+		// 		display: block;
+		// 		width: 100%;
+		// 		object-fit: contain;
+		// 		object-position: top;
+		// 		height: 500px;
+		// 	}
+		// }
 	}
 
 	.image {
