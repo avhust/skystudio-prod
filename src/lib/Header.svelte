@@ -39,6 +39,9 @@
 			<a target="_blank" rel="noreferrer" href="https://www.facebook.com/skystudio.uz"
 				><img alt="fb icon" src="/icons/fb.svg" /></a
 			>
+			<a target="_blank" rel="noreferrer" href="https://youtube.com/@sky_studio_uzh"
+				><img alt="youtube icon" src="/icons/youtube.svg" /></a
+			>
 		</div>
 		<div class="langs">
 			<a href="/" class:current={$page.url.pathname.split('/')[1] !== 'eng'}>UA</a>
@@ -176,7 +179,7 @@
 					transition: all 0.2s ease-in-out;
 					@media (hover: hover) and (pointer: fine) {
 						&:hover {
-							transform: scale(1.2);
+							transform: scale(1.1);
 							// border-radius: 50%;
 						}
 					}

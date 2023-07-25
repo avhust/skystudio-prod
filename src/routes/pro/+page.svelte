@@ -1,6 +1,8 @@
 <script lang="ts">
 	import Expandable from '$lib/Expandable.svelte';
 	import SlideShow from '$lib/SlideShow.svelte';
+	import Map from '$lib/Map/Map.svelte';
+	import MapMarker from '$lib/Map/MapMarker.svelte';
 	import '$lib/styles/page.scss';
 	import Hero from '$lib/Hero.svelte';
 	import ContactUs from '$lib/ContactUs.svelte';
@@ -56,6 +58,9 @@
 				<a target="_blank" rel="noreferrer" href="https://t.me/macwings"
 					><img style:--size="1.4rem" alt="telegram icon" src="/icons/telegram-white.svg" /></a
 				>
+				<a target="_blank" rel="noreferrer" href="https://youtube.com/@sky_studio_uzh"
+					><img style:--size="1.4rem" alt="youtube icon" src="/icons/youtube-white.svg" /></a
+				>
 			</div>
 		</div>
 		<div class="pps">
@@ -69,7 +74,7 @@
 		</div>
 		<div class="blockMapWithImage">
 			<div class="map">
-				<a href="https://goo.gl/maps/5xobiMsTy8Bir6PK7">
+				<!-- <a href="https://goo.gl/maps/5xobiMsTy8Bir6PK7">
 					<picture>
 						<source
 							type="image/avif"
@@ -85,7 +90,14 @@
 							decoding="async"
 						/>
 					</picture>
-				</a>
+				</a> -->
+				<Map zoom={12} lat={48.6086801325951} lon={22.298926239899735} locale="uk">
+					<MapMarker
+						lat={48.6086801325951}
+						lon={22.298926239899735}
+						label="Фотостудія Sky Studio"
+					/>
+				</Map>
 			</div>
 			<div class="image">
 				<Expandable breakpoint={768}>

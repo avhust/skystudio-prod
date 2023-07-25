@@ -72,6 +72,31 @@
 		</div>
 		<div class="blockWithImage">
 			<div class="title">
+				<h3>Постійне кольорове світло</h3>
+				<h4>Zoom RGB LED відеосвітло Godox</h4>
+			</div>
+			<div class="text">
+				<p>Це справжня знахідка для фотографів, які люблять кольорові схеми світла.</p>
+				<p>
+					Відеосвітло має налаштування відтінку кольору, насиченості, інтенсивності, що дозволяє
+					знімаючому отримати доступ до 36 000 кольорів на власний розсуд. Ще додатковою перевагою
+					цього світла є 13 вбудованих спецефектів.
+				</p>
+			</div>
+			<div class="image">
+				<Expandable breakpoint={768}>
+					<SlideShow
+						width={1280}
+						height={852}
+						x2={true}
+						slides={1}
+						path="/i/tekhnika/svitlo_kolir"
+					/>
+				</Expandable>
+			</div>
+		</div>
+		<div class="blockWithImage">
+			<div class="title">
 				<h3>Кольорові фільтри</h3>
 			</div>
 			<div class="text">

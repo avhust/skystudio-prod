@@ -77,6 +77,9 @@
 				<a target="_blank" rel="noreferrer" href="https://t.me/macwings"
 					><img style:--size="1.4rem" alt="telegram icon" src="/icons/telegram.svg" /></a
 				>
+				<a target="_blank" rel="noreferrer" href="https://youtube.com/@sky_studio_uzh"
+					><img style:--size="1.4rem" alt="youtube icon" src="/icons/youtube.svg" /></a
+				>
 			</div>
 			<div class="phone">
 				<!-- <a href="tel:+380950889787">+380 (96) 4085 973 +380950889787</a> -->
