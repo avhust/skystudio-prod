@@ -1,12 +1,12 @@
-<script lang="ts">
+<script>
 	export let cdn = '';
-	export let path: string = '/i';
-	export let image: string = '';
+	export let path = '/i';
+	export let image = '';
 	export let alt = 'placeholder';
 	export let height = 200;
 	export let width = 200;
 	export let x2 = false;
-	export let loading: 'lazy' | 'eager' = 'lazy';
+	export let loading = 'lazy';
 
 	$: format = image.split('.').pop();
 	$: name = image.split('.').slice(0, -1);
