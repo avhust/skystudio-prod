@@ -43,7 +43,7 @@
 			</div>
 			<div class="image">
 				<Expandable breakpoint={768}>
-					<SlideShow width={1280} height={852} x2={true} slides={56} path="/i/sukni/1-dorosli" />
+					<SlideShow width={1280} height={852} x2={true} slides={57} path="/i/sukni/1-dorosli" />
 				</Expandable>
 			</div>
 		</div>
@@ -61,7 +61,7 @@
 						width={1280}
 						height={852}
 						x2={true}
-						slides={8}
+						slides={10}
 						path="/i/sukni/4-dlya-vagitnyh"
 					/>
 				</Expandable>
@@ -119,7 +119,7 @@
 			</div>
 			<div class="image">
 				<Expandable breakpoint={768}>
-					<SlideShow width={1280} height={852} x2={true} slides={11} path="/i/sukni/5-aksesuary" />
+					<SlideShow width={1280} height={852} x2={true} slides={13} path="/i/sukni/5-aksesuary" />
 				</Expandable>
 			</div>
 		</div>
@@ -137,7 +137,7 @@
 						width={1280}
 						height={852}
 						x2={true}
-						slides={4}
+						slides={3}
 						path="/i/sukni/7-aksesuary-platno"
 					/>
 				</Expandable>

@@ -185,6 +185,56 @@
 				</Expandable>
 			</div>
 		</div>
+		<div class="blockWithImage">
+			<div class="title">
+				<h3>Зона №9</h3>
+				<h4>Зелений куток</h4>
+			</div>
+			<div class="text">
+				<p>
+					До вашої уваги – нова фотозона з шкіряним кріслом. Мінімалістична зона з штучним
+					озелененням на стіні додасть різноманітності вашій зйомці. Можна замінювати шкіряне крісло
+					на інші крісла чи стільці студії. А також можете додати свої бажані аксесуари для
+					створення необхідної атмосфери😉
+				</p>
+			</div>
+			<div class="image">
+				<Expandable breakpoint={768}>
+					<SlideShow
+						width={1280}
+						height={852}
+						x2={true}
+						slides={4}
+						path="/i/fotozony/fotozona9-zelenyi-kutok"
+					/>
+				</Expandable>
+			</div>
+		</div>
+		<div class="blockWithImage">
+			<div class="title">
+				<h3>Зона №10</h3>
+				<h4>Коробки Барбі</h4>
+			</div>
+			<div class="text">
+				<p>
+					В Скай студії ви можете перевтілитися в справжню Барбі🩷 Маємо необхідний одяг, взуття та
+					навіть дві рожеві коробки – для дорослої і для дитини. Ми навіть маємо в наявності дві
+					перуки – рожевого кольору і блонд
+				</p>
+				<p>А диско-шар і рожеве світло створять приємну атмосфери для зйомки</p>
+			</div>
+			<div class="image">
+				<Expandable breakpoint={768}>
+					<SlideShow
+						width={1280}
+						height={852}
+						x2={true}
+						slides={2}
+						path="/i/fotozony/fotozona10-barbi"
+					/>
+				</Expandable>
+			</div>
+		</div>
 		<div id="idei-fotozon">
 			<div class="blockWithImage">
 				<div class="title">
@@ -205,7 +255,7 @@
 				</div>
 				<div class="image">
 					<Expandable breakpoint={768}>
-						<SlideShow width={1280} height={852} x2={true} slides={6} path="/i/fotozony/idei" />
+						<SlideShow width={1280} height={852} x2={true} slides={7} path="/i/fotozony/idei" />
 					</Expandable>
 				</div>
 			</div>
@@ -239,7 +289,7 @@
 			</div>
 			<div class="image">
 				<Expandable breakpoint={768}>
-					<SlideShow width={1280} height={852} x2={true} slides={4} path="/i/fotozony/zal10" />
+					<SlideShow width={1280} height={852} x2={true} slides={6} path="/i/fotozony/zal10" />
 				</Expandable>
 			</div>
 		</div>
