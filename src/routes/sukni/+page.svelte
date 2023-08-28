@@ -61,7 +61,7 @@
 						width={1280}
 						height={852}
 						x2={true}
-						slides={10}
+						slides={13}
 						path="/i/sukni/4-dlya-vagitnyh"
 					/>
 				</Expandable>
