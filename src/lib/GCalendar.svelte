@@ -1,4 +1,5 @@
 <iframe
+	loading="lazy"
 	src="https://calendar.google.com/calendar/embed?height=600&wkst=2&bgcolor=%23ffffff&ctz=Europe%2FKiev&mode=WEEK&showTitle=0&showDate=1&showPrint=0&showTabs=1&showCalendars=0&showTz=0&title=SkyStudio%20%D0%91%D1%80%D0%BE%D0%BD%D1%8C&src=c2t5c3R1ZGlvLnV6QGdtYWlsLmNvbQ&color=%234285F4"
 	style="border: 0"
 	width="800"
