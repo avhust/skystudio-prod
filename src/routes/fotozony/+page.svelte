@@ -3,6 +3,7 @@
 	import Expandable from '$lib/Expandable.svelte';
 	import SlideShow from '$lib/SlideShow.svelte';
 	import Hero from '$lib/Hero.svelte';
+	import LinkButton from '$lib/LinkButton.svelte';
 	import ContactUs from '$lib/ContactUs.svelte';
 	import { slides, getSrcSet } from '$lib/data/hero';
 	import ArticleSchemaMarkup from '$lib/ArticleSchemaMarkup.svelte';
@@ -94,22 +95,28 @@
 				</Expandable>
 			</div>
 		</div>
-
 		<div class="blockWithImage">
 			<div class="title">
-				<h3>Пустеля</h3>
+				<h3>Осіння фотозона</h3>
 				<!-- <h4>Білий зал</h4> -->
 			</div>
 			<div class="text">
 				<p>
-					Маємо новинку для вас – фотозону з піском. Це пустеля в приміщенні☺️ Жовте постійне світло
-					додасть «палючого сонця» для атмосфери<br />І до речі, сукня, в яку дівчина одягнена,
-					також доступна до оренди😉
+					А ви любите осінь? В нашій студії зʼявилась зона, де ви можете зробити чудові сімейні
+					кадри. Фотозона насичена багряними відтінками теплої осені. А золотисті листя, осінні
+					квіти та гарбузи доповнюють атмосферу цього чарівного сезону. А картаті сорочки, до речі,
+					доступні до оренди в студії.
 				</p>
 			</div>
 			<div class="image">
 				<Expandable breakpoint={768}>
-					<SlideShow width={1280} height={852} x2={true} slides={7} path="/i/fotozony/pustelya" />
+					<SlideShow
+						width={1280}
+						height={852}
+						x2={true}
+						slides={5}
+						path="/i/fotozony/osinnya-fotozona"
+					/>
 				</Expandable>
 			</div>
 		</div>
@@ -134,24 +141,7 @@
 				</Expandable>
 			</div>
 		</div>
-		<div class="blockWithImage">
-			<div class="title">
-				<h3>Pole Dance</h3>
-				<!-- <h4>Pole Dance</h4> -->
-			</div>
-			<div class="text">
-				<p>
-					В нашій студії є можливість знімати кадри на пілоні. Це буде корисно хореографам Pole
-					Dance чи любителям даного виду танців Використовуючи професійне фотообладнання і кольорові
-					фільтри, можна чудово передати атмосферу танцю та акробатичні трюки
-				</p>
-			</div>
-			<div class="image">
-				<Expandable breakpoint={768}>
-					<SlideShow width={1280} height={852} x2={true} slides={3} path="/i/fotozony/zal7" />
-				</Expandable>
-			</div>
-		</div>
+
 		<div class="blockWithImage">
 			<div class="title">
 				<h3>Дитяча міні-зона</h3>
@@ -241,7 +231,7 @@
 				</div>
 				<div class="image">
 					<Expandable breakpoint={768}>
-						<SlideShow width={1280} height={852} x2={true} slides={13} path="/i/fotozony/idei" />
+						<SlideShow width={1280} height={852} x2={true} slides={16} path="/i/fotozony/idei" />
 					</Expandable>
 				</div>
 			</div>
@@ -313,6 +303,14 @@
 					<SlideShow width={1280} height={852} x2={true} slides={2} path="/i/fotozony/zal9" />
 				</Expandable>
 			</div>
+		</div>
+		<!-- add styled link to arkhiv page-->
+		<div style="padding: 1rem;">
+			<LinkButton
+				kind="link"
+				href="/fotozony/arkhiv#mainContent"
+				title="Переглянути архів фотозон &rarr;"
+			/>
 		</div>
 
 		<ContactUs />

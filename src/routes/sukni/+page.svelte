@@ -43,7 +43,7 @@
 			</div>
 			<div class="image">
 				<Expandable breakpoint={768}>
-					<SlideShow width={1280} height={852} x2={true} slides={57} path="/i/sukni/1-dorosli" />
+					<SlideShow width={1280} height={852} x2={true} slides={56} path="/i/sukni/1-dorosli" />
 				</Expandable>
 			</div>
 		</div>
@@ -69,6 +69,19 @@
 		</div>
 		<div class="blockWithImage">
 			<div class="title">
+				<h3>Family Look</h3>
+			</div>
+			<div class="text">
+				<p />
+			</div>
+			<div class="image">
+				<Expandable breakpoint={768}>
+					<SlideShow width={1280} height={852} x2={true} slides={4} path="/i/sukni/family-look" />
+				</Expandable>
+			</div>
+		</div>
+		<div class="blockWithImage">
+			<div class="title">
 				<h3>Інший одяг для дорослих</h3>
 				<h4>Оренда – 200 грн</h4>
 			</div>
@@ -77,7 +90,7 @@
 			</div>
 			<div class="image">
 				<Expandable breakpoint={768}>
-					<SlideShow width={1280} height={852} x2={true} slides={4} path="/i/sukni/8-odyah" />
+					<SlideShow width={1280} height={852} x2={true} slides={7} path="/i/sukni/8-odyah" />
 				</Expandable>
 			</div>
 		</div>
@@ -119,7 +132,7 @@
 			</div>
 			<div class="image">
 				<Expandable breakpoint={768}>
-					<SlideShow width={1280} height={852} x2={true} slides={13} path="/i/sukni/5-aksesuary" />
+					<SlideShow width={1280} height={852} x2={true} slides={14} path="/i/sukni/5-aksesuary" />
 				</Expandable>
 			</div>
 		</div>

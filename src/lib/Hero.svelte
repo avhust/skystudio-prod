@@ -54,46 +54,17 @@
 				button: true
 			}
 		],
-		eng: [
-			{
-				first: 'oil and gas<br/>consulting',
-				second: 'center',
-				button: false
-			},
-			{
-				first: 'oil and gas<br/>conference',
-				second: 'events',
-				button: true
-			},
-			{
-				first: 'professional<br/>industry',
-				second: 'periodicals',
-				button: true
-			},
-			{
-				first: 'advertising<br/>industrial',
-				second: 'photography',
-				button: true
-			},
-			{
-				first: 'corporate<br/>promotional',
-				second: 'video shooting',
-				button: true
-			},
-			{
-				first: 'leaders of<br/>the oil and gas',
-				second: 'media market',
-				button: true
-			}
-		]
+		eng: []
 	};
 	export let slideNo: number = 0;
+	export let customFirstText: false | string = false;
+	export let customBrightness: string = '';
 </script>
 
 <section class:loading={$navigating !== null}>
 	<picture
 		in:blur={{ delay: 0, duration: 500 }}
-		style={slides[slideNo]?.brightness ? `--brightness: ${slides[slideNo].brightness}` : ''}
+		style:--brightness={customBrightness ? customBrightness : slides[slideNo]?.brightness}
 	>
 		<source
 			type="image/avif"
@@ -125,7 +96,11 @@
 	</picture>
 	<div class="texts">
 		<div in:fade={{ delay: 250, duration: 1000 }} class="first">
-			{@html texts[lang][slideNo].first}
+			{#if customFirstText}
+				{@html customFirstText}
+			{:else}
+				{@html texts[lang][slideNo].first}
+			{/if}
 		</div>
 		<div
 			in:fade={{ delay: 500, duration: 1000 }}

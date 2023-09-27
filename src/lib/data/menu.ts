@@ -1,7 +1,12 @@
 const menu = {
     ukr: [
         { title: 'Головна', href: '/', sub: false, showInNavigation: true },
-        { title: 'Фотозони', href: '/fotozony', sub: false, showInNavigation: true },
+        {
+            title: 'Фотозони', href: '/fotozony', showInNavigation: true,
+            sub: [
+                { title: 'Архів фотозон', href: '/fotozony/arkhiv', sub: false, showInNavigation: false },
+            ]
+        },
         { title: 'Техніка', href: '/tekhnika', sub: false, showInNavigation: true },
         { title: 'Крила', href: '/kryla', sub: false, showInNavigation: true },
         { title: 'Сукні', href: '/sukni', sub: false, showInNavigation: true },

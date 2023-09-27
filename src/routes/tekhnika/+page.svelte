@@ -164,11 +164,11 @@
 		<div class="blockWithImage">
 			<div class="title">
 				<h3>Софтбокс</h3>
-				<h4>2 шт</h4>
+				<h4>3 шт</h4>
 			</div>
 			<div class="text">
 				<p>
-					Маємо два софтбокси розміром 60х90см і 80х120см
+					Маємо софтбокси розміром 60х90см і 80х120см
 					<br />Софтбокс розсіює світло та зменшує тіні на фото, створюючи м'яке освітлення з ніжним
 					переходом від світла до тіні.
 				</p>
@@ -176,6 +176,29 @@
 			<div class="image">
 				<Expandable breakpoint={768}>
 					<SlideShow width={1280} height={852} x2={true} slides={1} path="/i/tekhnika/tekh6" />
+				</Expandable>
+			</div>
+		</div>
+		<div class="blockWithImage">
+			<div class="title">
+				<h3>Стріп софтбокс</h3>
+				<h4>2 шт</h4>
+			</div>
+			<div class="text">
+				<p>
+					В наявності 2 стріпбокси розміром 160х35 см. Стріпи роблять вузький світловий потік, що
+					може бути корисним інструментом для роботи з різними схемами світла.»
+				</p>
+			</div>
+			<div class="image">
+				<Expandable breakpoint={768}>
+					<SlideShow
+						width={1280}
+						height={852}
+						x2={true}
+						slides={1}
+						path="/i/tekhnika/strip-softbox"
+					/>
 				</Expandable>
 			</div>
 		</div>
