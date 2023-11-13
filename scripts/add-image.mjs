@@ -1,0 +1,42 @@
+import fs from 'fs';
+import path from 'path';
+
+function addSpaceAndRenameFiles(folder, index, extension) {
+    // Get the list of all files in the folder.
+    const folderExtension = path.join(folder, extension);
+
+    // remove .DS_Store
+    fs.unlinkSync(path.join(folderExtension, '.DS_Store'));
+
+    const files = fs.readdirSync(folderExtension);
+    const maxIndex = files.length / 2;
+
+
+    // Rename all next files.
+    for (let i = maxIndex; i > index - 1; i--) {
+        const oldFileName = `photo${i}.${extension}`;
+        const newFileName = `photo${i + 1}.${extension}`;
+        fs.renameSync(path.join(folderExtension, oldFileName), path.join(folderExtension, newFileName));
+    }
+
+    // Rename all next files with -1x suffix.
+    for (let i = maxIndex; i > index - 1; i--) {
+        const oldFileName = `photo${i}-1x.${extension}`;
+        const newFileName = `photo${i + 1}-1x.${extension}`;
+        fs.renameSync(path.join(folderExtension, oldFileName), path.join(folderExtension, newFileName));
+    }
+}
+function main() {
+    // Get the folder and index from the command line arguments.
+    const folder = process.argv[2];
+    const index = parseInt(process.argv[3]);
+    // const extension = parseInt(process.argv[4]);
+    const extensions = ['avif', 'webp', 'jpg'];
+
+    // Add space and rename all next files.
+    for (let i = 0; i < extensions.length; i++) {
+        addSpaceAndRenameFiles(folder, index, extensions[i]);
+    }
+}
+
+main();

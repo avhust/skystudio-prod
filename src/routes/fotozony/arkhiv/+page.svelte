@@ -35,7 +35,48 @@
 				яка була раніше, напишіть нам. Можливо ми зможемо її реалізувати знову.<br />
 			</div>
 		</div>
-
+		<div class="blockWithImage">
+			<div class="title">
+				<h3>Дитячий куточок</h3>
+			</div>
+			<div class="text">
+				<p>
+					Маємо таку дитячу зону в студії для ваших діток. Ця зона може бути як фотозоною, так і
+					просто місцем, де діти можуть побавитися поки ви зайняті на фотозйомці. Все для вашого
+					комфорту :)
+				</p>
+			</div>
+			<div class="image">
+				<Expandable breakpoint={768}>
+					<SlideShow width={1280} height={852} x2={true} slides={3} path="/i/fotozony/dyt_kytok" />
+				</Expandable>
+			</div>
+		</div>
+		<div class="blockWithImage">
+			<div class="title">
+				<h3>Осіння фотозона</h3>
+				<!-- <h4>Білий зал</h4> -->
+			</div>
+			<div class="text">
+				<p>
+					А ви любите осінь? В нашій студії зʼявилась зона, де ви можете зробити чудові сімейні
+					кадри. Фотозона насичена багряними відтінками теплої осені. А золотисті листя, осінні
+					квіти та гарбузи доповнюють атмосферу цього чарівного сезону. А картаті сорочки, до речі,
+					доступні до оренди в студії.
+				</p>
+			</div>
+			<div class="image">
+				<Expandable breakpoint={768}>
+					<SlideShow
+						width={1280}
+						height={852}
+						x2={true}
+						slides={5}
+						path="/i/fotozony/osinnya-fotozona"
+					/>
+				</Expandable>
+			</div>
+		</div>
 		<div class="blockWithImage">
 			<div class="title">
 				<h3>Pole Dance</h3>

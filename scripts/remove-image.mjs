@@ -4,7 +4,12 @@ const path = require('path');
 function removeAndRenameFiles(folder, index, extension) {
     // Get the list of all files in the folder.
     const folderExtension = path.join(folder, extension);
+
+    // remove .DS_Store
+    fs.unlinkSync(path.join(folderExtension, '.DS_Store'));
+
     const files = fs.readdirSync(folderExtension);
+
     const maxIndex = files.length / 2;
 
     // Find the pair of files to remove.
@@ -29,13 +34,17 @@ function removeAndRenameFiles(folder, index, extension) {
         fs.renameSync(path.join(folderExtension, oldFileName), path.join(folderExtension, newFileName));
     }
 }
-// Get the folder and index from the command line arguments.
-const folder = process.argv[2];
-const index = parseInt(process.argv[3]);
-// const extension = parseInt(process.argv[4]);
-const extensions = ['avif', 'webp', 'jpg'];
+function main() {
+    // Get the folder and index from the command line arguments.
+    const folder = process.argv[2];
+    const index = parseInt(process.argv[3]);
+    // const extension = parseInt(process.argv[4]);
+    const extensions = ['avif', 'webp', 'jpg'];
 
-// Remove the pair of files and rename all next files.
-for (let i = 0; i < extensions.length; i++) {
-    removeAndRenameFiles(folder, index, extensions[i]);
+    // Remove the pair of files and rename all next files.
+    for (let i = 0; i < extensions.length; i++) {
+        removeAndRenameFiles(folder, index, extensions[i]);
+    }
 }
+
+main();

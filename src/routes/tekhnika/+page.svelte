@@ -433,6 +433,31 @@
 				</Expandable>
 			</div>
 		</div>
+		<div class="blockWithImage">
+			<div class="title">
+				<h3>Снігова машина</h3>
+				<!-- <h4>Visico RD-024, 91 х 122 см</h4> -->
+			</div>
+			<div class="text">
+				<p>
+					Генератор снігу для фотозйомки додасть чарівності і атмосфери до ваших зимових фотосесій.
+					Завдяки імітації падіння снігу, ця машина дозволить створити чудові кадри в казковому
+					сніжному образі незалежно від погодних умов, в приміщенні фотостудії. Входить до вартості
+					оренди❄️
+				</p>
+			</div>
+			<div class="image">
+				<Expandable breakpoint={768}>
+					<SlideShow
+						width={1280}
+						height={852}
+						x2={true}
+						slides={1}
+						path="/i/tekhnika/snih-mashyna"
+					/>
+				</Expandable>
+			</div>
+		</div>
 		<ContactUs />
 	</div>
 </section>

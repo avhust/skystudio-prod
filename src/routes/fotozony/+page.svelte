@@ -33,7 +33,7 @@
 		<div class="infoLineNew">
 			<div class="text">
 				Оренда&nbsp;фотостудії:
-				<span class="price">600 грн/год</span>
+				<span class="price">750 грн/год</span>
 				<br />(cвітло та обладнання входять у вартість оренди)
 			</div>
 		</div>
@@ -57,7 +57,26 @@
 				</Expandable>
 			</div>
 		</div>
-
+		<div class="blockWithImage">
+			<div class="title">
+				<h3>Новорічна фотозона</h3>
+			</div>
+			<div class="text">
+				<p>
+					Подивіться на цей справжній казковий ліс, де можна створити неймовірні новорічні
+					фотографії! Ялинки з місяцем гармонійно поєднуються і створюють святковий настрій.
+					Фотозона підійде для індивідуальних, портретних та сімейних зйомок. Чекаємо вас на
+					зйомку✨
+					<br />
+					І до речі, образи на фото доступні в оренду в студії :)
+				</p>
+			</div>
+			<div class="image">
+				<Expandable breakpoint={768}>
+					<SlideShow width={1280} height={852} x2={true} slides={3} path="/i/fotozony/novorichna" />
+				</Expandable>
+			</div>
+		</div>
 		<div class="blockWithImage">
 			<div class="title">
 				<h3>Синій зал</h3>
@@ -65,14 +84,13 @@
 			</div>
 			<div class="text">
 				<p>
-					Цей зал підійде для бізнес зйомок, контент чи предметних зйомок, запису відеоматеріалів,
-					портретних фотосесій і т.п. Темно-синій колір додає залу певної строгості, серйозності,
-					стриманості. А зелені рослини візуально «освіжають» простір.
+					В очікування свята… Новий рік вже близько✨ Зловіть цю атмосферу в нашому синьому залі, де
+					накритий святковий стіл, горять яскраві вогники на ялинці та грає улюблена музика.
 				</p>
 			</div>
 			<div class="image">
 				<Expandable breakpoint={768}>
-					<SlideShow width={1280} height={852} x2={true} slides={5} path="/i/fotozony/zal2" />
+					<SlideShow width={1280} height={852} x2={true} slides={6} path="/i/fotozony/zal2" />
 				</Expandable>
 			</div>
 		</div>
@@ -91,32 +109,24 @@
 			</div>
 			<div class="image">
 				<Expandable breakpoint={768}>
-					<SlideShow width={1280} height={852} x2={true} slides={11} path="/i/fotozony/bilyi-zal" />
+					<SlideShow width={1280} height={852} x2={true} slides={7} path="/i/fotozony/bilyi-zal" />
 				</Expandable>
 			</div>
 		</div>
 		<div class="blockWithImage">
 			<div class="title">
-				<h3>Осіння фотозона</h3>
-				<!-- <h4>Білий зал</h4> -->
+				<h3>Фотозона зі снігом</h3>
 			</div>
 			<div class="text">
 				<p>
-					А ви любите осінь? В нашій студії зʼявилась зона, де ви можете зробити чудові сімейні
-					кадри. Фотозона насичена багряними відтінками теплої осені. А золотисті листя, осінні
-					квіти та гарбузи доповнюють атмосферу цього чарівного сезону. А картаті сорочки, до речі,
-					доступні до оренди в студії.
+					Це справді цікавий куточок для дітей. Тут можна зробити чудові сімейні фото в зимовій
+					атмосфері. Діти зможуть погратися з штучним снігом, а фотограф тим часом зробить веселі
+					зимові кадри❄️
 				</p>
 			</div>
 			<div class="image">
 				<Expandable breakpoint={768}>
-					<SlideShow
-						width={1280}
-						height={852}
-						x2={true}
-						slides={5}
-						path="/i/fotozony/osinnya-fotozona"
-					/>
+					<SlideShow width={1280} height={852} x2={true} slides={1} path="/i/fotozony/zi-snihom" />
 				</Expandable>
 			</div>
 		</div>
@@ -137,7 +147,7 @@
 			</div>
 			<div class="image">
 				<Expandable breakpoint={768}>
-					<SlideShow width={1280} height={852} x2={true} slides={7} path="/i/fotozony/zal6" />
+					<SlideShow width={1280} height={852} x2={true} slides={10} path="/i/fotozony/zal6" />
 				</Expandable>
 			</div>
 		</div>
@@ -248,7 +258,7 @@
 			</div>
 			<div class="image">
 				<Expandable breakpoint={768}>
-					<SlideShow width={1280} height={852} x2={true} slides={10} path="/i/fotozony/stiltsi" />
+					<SlideShow width={1280} height={852} x2={true} slides={13} path="/i/fotozony/stiltsi" />
 				</Expandable>
 			</div>
 		</div>
@@ -266,23 +276,6 @@
 			<div class="image">
 				<Expandable breakpoint={768}>
 					<SlideShow width={1280} height={852} x2={true} slides={8} path="/i/fotozony/rekvizyt" />
-				</Expandable>
-			</div>
-		</div>
-		<div class="blockWithImage">
-			<div class="title">
-				<h3>Дитячий куточок</h3>
-			</div>
-			<div class="text">
-				<p>
-					Маємо таку дитячу зону в студії для ваших діток. Ця зона може бути як фотозоною, так і
-					просто місцем, де діти можуть побавитися поки ви зайняті на фотозйомці. Все для вашого
-					комфорту :)
-				</p>
-			</div>
-			<div class="image">
-				<Expandable breakpoint={768}>
-					<SlideShow width={1280} height={852} x2={true} slides={3} path="/i/fotozony/dyt_kytok" />
 				</Expandable>
 			</div>
 		</div>
