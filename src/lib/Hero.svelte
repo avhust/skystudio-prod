@@ -44,7 +44,7 @@
 				button: true
 			},
 			{
-				first: 'сукні та<br/>аксесуари',
+				first: 'одяг та<br/>аксесуари',
 				second: 'Sky Studio',
 				button: true
 			},

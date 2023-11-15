@@ -9,7 +9,7 @@ const menu = {
         },
         { title: 'Техніка', href: '/tekhnika', sub: false, showInNavigation: true },
         { title: 'Крила', href: '/kryla', sub: false, showInNavigation: true },
-        { title: 'Сукні', href: '/sukni', sub: false, showInNavigation: true },
+        { title: 'Одяг', href: '/sukni', sub: false, showInNavigation: true },
         { title: 'Про нас', href: '/pro', sub: false, showInNavigation: true },
         { title: 'Новини', href: '/novyny', sub: false, showInNavigation: false },
     ],

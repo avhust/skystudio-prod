@@ -76,7 +76,7 @@
 			</div>
 			<div class="image">
 				<Expandable breakpoint={768}>
-					<SlideShow width={1280} height={852} x2={true} slides={4} path="/i/sukni/family-look" />
+					<SlideShow width={1280} height={852} x2={true} slides={10} path="/i/sukni/family-look" />
 				</Expandable>
 			</div>
 		</div>
@@ -90,13 +90,13 @@
 			</div>
 			<div class="image">
 				<Expandable breakpoint={768}>
-					<SlideShow width={1280} height={852} x2={true} slides={7} path="/i/sukni/8-odyah" />
+					<SlideShow width={1280} height={852} x2={true} slides={12} path="/i/sukni/8-odyah" />
 				</Expandable>
 			</div>
 		</div>
 		<div class="blockWithImage">
 			<div class="title">
-				<h3>Дитячі сукні</h3>
+				<h3>Дитячий одяг</h3>
 				<h4>Оренда – 100 грн</h4>
 			</div>
 			<div class="text">
@@ -104,7 +104,7 @@
 			</div>
 			<div class="image">
 				<Expandable breakpoint={768}>
-					<SlideShow width={1280} height={852} x2={true} slides={15} path="/i/sukni/2-dytyachi" />
+					<SlideShow width={1280} height={852} x2={true} slides={18} path="/i/sukni/2-dytyachi" />
 				</Expandable>
 			</div>
 		</div>
