@@ -452,7 +452,7 @@
 						width={1280}
 						height={852}
 						x2={true}
-						slides={1}
+						slides={4}
 						path="/i/tekhnika/snih-mashyna"
 					/>
 				</Expandable>

@@ -73,7 +73,7 @@
 			</div>
 			<div class="image">
 				<Expandable breakpoint={768}>
-					<SlideShow width={1280} height={852} x2={true} slides={3} path="/i/fotozony/novorichna" />
+					<SlideShow width={1280} height={852} x2={true} slides={9} path="/i/fotozony/novorichna" />
 				</Expandable>
 			</div>
 		</div>
@@ -90,7 +90,26 @@
 			</div>
 			<div class="image">
 				<Expandable breakpoint={768}>
-					<SlideShow width={1280} height={852} x2={true} slides={6} path="/i/fotozony/zal2" />
+					<SlideShow width={1280} height={852} x2={true} slides={7} path="/i/fotozony/syniy-zal" />
+				</Expandable>
+			</div>
+		</div>
+		<div class="blockWithImage">
+			<div class="title">
+				<h3>Снігопад</h3>
+				<!-- <h4>Синій зал</h4> -->
+			</div>
+			<div class="text">
+				<p>
+					В нашій студії є реальний сніг❄️ Так-так, це справжній сніг, який створює генератор снігу…
+					Вам більше не треба чекати, коли піде сніг надворі, щоб зробити такі ефектні кадри.
+					Достатньо буде записатись до нас на зйомку. До речі, ця сукня зі стразами, також доступна
+					в оренду. Тож ви можете повністю відтворити цей образ. Чекаємо на вас 😉
+				</p>
+			</div>
+			<div class="image">
+				<Expandable breakpoint={768}>
+					<SlideShow width={1280} height={852} x2={true} slides={4} path="/i/fotozony/snihopad" />
 				</Expandable>
 			</div>
 		</div>
@@ -126,7 +145,7 @@
 			</div>
 			<div class="image">
 				<Expandable breakpoint={768}>
-					<SlideShow width={1280} height={852} x2={true} slides={1} path="/i/fotozony/zi-snihom" />
+					<SlideShow width={1280} height={852} x2={true} slides={7} path="/i/fotozony/zi-snihom" />
 				</Expandable>
 			</div>
 		</div>
@@ -241,7 +260,7 @@
 				</div>
 				<div class="image">
 					<Expandable breakpoint={768}>
-						<SlideShow width={1280} height={852} x2={true} slides={16} path="/i/fotozony/idei" />
+						<SlideShow width={1280} height={852} x2={true} slides={18} path="/i/fotozony/idei" />
 					</Expandable>
 				</div>
 			</div>
