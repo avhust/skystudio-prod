@@ -1,5 +1,7 @@
 import menu from "$lib/data/menu"
 
+export const prerender = true
+
 type MenuItem = typeof menu.ukr[0]
 function outputItem(el: MenuItem): string {
     const date = new Date()

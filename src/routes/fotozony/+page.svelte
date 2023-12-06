@@ -73,7 +73,7 @@
 			</div>
 			<div class="image">
 				<Expandable breakpoint={768}>
-					<SlideShow width={1280} height={852} x2={true} slides={9} path="/i/fotozony/novorichna" />
+					<SlideShow width={1280} height={852} x2={true} slides={6} path="/i/fotozony/novorichna" />
 				</Expandable>
 			</div>
 		</div>
@@ -90,7 +90,7 @@
 			</div>
 			<div class="image">
 				<Expandable breakpoint={768}>
-					<SlideShow width={1280} height={852} x2={true} slides={7} path="/i/fotozony/syniy-zal" />
+					<SlideShow width={1280} height={852} x2={true} slides={6} path="/i/fotozony/syniy-zal" />
 				</Expandable>
 			</div>
 		</div>
@@ -110,6 +110,30 @@
 			<div class="image">
 				<Expandable breakpoint={768}>
 					<SlideShow width={1280} height={852} x2={true} slides={4} path="/i/fotozony/snihopad" />
+				</Expandable>
+			</div>
+		</div>
+		<div class="blockWithImage">
+			<div class="title">
+				<h3>Срібна фотозона</h3>
+				<!-- <h4>Синій зал</h4> -->
+			</div>
+			<div class="text">
+				<p>
+					Наша блискуча фотозона надає неповторний атмосферний фон для ваших спогадів. Зафіксуйте
+					миті щастя в цьому неперевершеному срібному сяйві. А сірий костюм, до речі, можна взяти в
+					оренду в студії щоб повністю відтворити цей образ😉
+				</p>
+			</div>
+			<div class="image">
+				<Expandable breakpoint={768}>
+					<SlideShow
+						width={1280}
+						height={852}
+						x2={true}
+						slides={3}
+						path="/i/fotozony/sribna-fotozona"
+					/>
 				</Expandable>
 			</div>
 		</div>
@@ -145,7 +169,7 @@
 			</div>
 			<div class="image">
 				<Expandable breakpoint={768}>
-					<SlideShow width={1280} height={852} x2={true} slides={7} path="/i/fotozony/zi-snihom" />
+					<SlideShow width={1280} height={852} x2={true} slides={6} path="/i/fotozony/zi-snihom" />
 				</Expandable>
 			</div>
 		</div>
@@ -166,7 +190,7 @@
 			</div>
 			<div class="image">
 				<Expandable breakpoint={768}>
-					<SlideShow width={1280} height={852} x2={true} slides={10} path="/i/fotozony/zal6" />
+					<SlideShow width={1280} height={852} x2={true} slides={11} path="/i/fotozony/fotofony" />
 				</Expandable>
 			</div>
 		</div>

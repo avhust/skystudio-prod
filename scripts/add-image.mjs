@@ -6,7 +6,8 @@ function addSpaceAndRenameFiles(folder, index, extension) {
     const folderExtension = path.join(folder, extension);
 
     // remove .DS_Store
-    fs.unlinkSync(path.join(folderExtension, '.DS_Store'));
+    if (fs.existsSync(path.join(folderExtension, '.DS_Store')))
+        fs.unlinkSync(path.join(folderExtension, '.DS_Store'));
 
     const files = fs.readdirSync(folderExtension);
     const maxIndex = files.length / 2;

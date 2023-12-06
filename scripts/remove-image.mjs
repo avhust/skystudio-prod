@@ -1,12 +1,13 @@
-const fs = require('fs');
-const path = require('path');
+import fs from 'fs';
+import path from 'path';
 
 function removeAndRenameFiles(folder, index, extension) {
     // Get the list of all files in the folder.
     const folderExtension = path.join(folder, extension);
 
     // remove .DS_Store
-    fs.unlinkSync(path.join(folderExtension, '.DS_Store'));
+    if (fs.existsSync(path.join(folderExtension, '.DS_Store')))
+        fs.unlinkSync(path.join(folderExtension, '.DS_Store'));
 
     const files = fs.readdirSync(folderExtension);
 

@@ -31,11 +31,11 @@
 <section id="mainContent">
 	<div class="container">
 		<div class="infoLineNew">
-			<div class="text">Оренда суконь доступна лише для зйомки в нашій студії.</div>
+			<div class="text">Оренда одягу доступна лише для зйомки в нашій студії.</div>
 		</div>
 		<div class="blockWithImage">
 			<div class="title">
-				<h3>Дорослі сукні</h3>
+				<h3>Одяг для дорослих</h3>
 				<h4>Оренда – 200 грн</h4>
 			</div>
 			<div class="text">
@@ -43,13 +43,13 @@
 			</div>
 			<div class="image">
 				<Expandable breakpoint={768}>
-					<SlideShow width={1280} height={852} x2={true} slides={56} path="/i/sukni/1-dorosli" />
+					<SlideShow width={1280} height={852} x2={true} slides={65} path="/i/sukni/1-dorosli" />
 				</Expandable>
 			</div>
 		</div>
 		<div class="blockWithImage">
 			<div class="title">
-				<h3>Сукні для вагітних</h3>
+				<h3>Одяг для вагітних</h3>
 				<h4>Оренда – 200 грн</h4>
 			</div>
 			<div class="text">
@@ -61,7 +61,7 @@
 						width={1280}
 						height={852}
 						x2={true}
-						slides={13}
+						slides={15}
 						path="/i/sukni/4-dlya-vagitnyh"
 					/>
 				</Expandable>
@@ -80,7 +80,7 @@
 				</Expandable>
 			</div>
 		</div>
-		<div class="blockWithImage">
+		<!-- <div class="blockWithImage">
 			<div class="title">
 				<h3>Інший одяг для дорослих</h3>
 				<h4>Оренда – 200 грн</h4>
@@ -93,10 +93,10 @@
 					<SlideShow width={1280} height={852} x2={true} slides={12} path="/i/sukni/8-odyah" />
 				</Expandable>
 			</div>
-		</div>
+		</div> -->
 		<div class="blockWithImage">
 			<div class="title">
-				<h3>Дитячий одяг</h3>
+				<h3>Одяг для дітей</h3>
 				<h4>Оренда – 100 грн</h4>
 			</div>
 			<div class="text">
@@ -104,11 +104,11 @@
 			</div>
 			<div class="image">
 				<Expandable breakpoint={768}>
-					<SlideShow width={1280} height={852} x2={true} slides={18} path="/i/sukni/2-dytyachi" />
+					<SlideShow width={1280} height={852} x2={true} slides={17} path="/i/sukni/2-dytyachi" />
 				</Expandable>
 			</div>
 		</div>
-		<div class="blockWithImage">
+		<!-- <div class="blockWithImage">
 			<div class="title">
 				<h3>Весільні сукні</h3>
 				<h4>Оренда – 500 грн</h4>
@@ -121,7 +121,7 @@
 					<SlideShow width={1280} height={852} x2={true} slides={4} path="/i/sukni/3-vesilni" />
 				</Expandable>
 			</div>
-		</div>
+		</div> -->
 		<div class="blockWithImage">
 			<div class="title">
 				<h3>Аксесуари</h3>
@@ -136,7 +136,7 @@
 				</Expandable>
 			</div>
 		</div>
-		<div class="blockWithImage">
+		<!-- <div class="blockWithImage">
 			<div class="title">
 				<h3>Аксесуари</h3>
 				<h4>Оренда – 200 грн.</h4>
@@ -155,7 +155,7 @@
 					/>
 				</Expandable>
 			</div>
-		</div>
+		</div> -->
 		<div class="blockWithImage">
 			<div class="title">
 				<h3>Взуття</h3>
