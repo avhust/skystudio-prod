@@ -85,6 +85,10 @@
 				<News />
 			</div>
 		</div>
+		<div id="calendar">
+			<GCalendar />
+		</div>
+		<ContactUs />
 		<div class="blockWithImageAndButton">
 			<div class="title">
 				<h3>Правила оренди студії</h3>
@@ -145,9 +149,6 @@
 					/>
 				</picture>
 			</div>
-		</div>
-		<div id="calendar">
-			<GCalendar />
 		</div>
 		<ContactUs />
 	</div>
