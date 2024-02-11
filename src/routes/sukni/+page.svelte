@@ -1,5 +1,4 @@
 <script lang="ts">
-	// import type { PageData } from './$types';
 	import '$lib/styles/page.scss';
 	import Hero from '$lib/Hero.svelte';
 	import ContactUs from '$lib/ContactUs.svelte';
