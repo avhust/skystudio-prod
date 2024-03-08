@@ -297,6 +297,56 @@
 		</div>
 		<div class="blockWithImage">
 			<div class="title">
+				<h3>Фотопарасоля</h3>
+				<h4>160 cм</h4>
+			</div>
+			<div class="text">
+				<p>
+					Фотопарасоля - це гарний інструмент для роботи зі світлом. Він розсіює жорсткі тіні,
+					формує м'який та рівномірний світловий потік, а також може використовуватися для відбиття
+					світла та освітлення тіньових ділянок.
+					<br />Завдяки фотопарасолі фотографії стають більш естетичними, з плавними переходами між
+					світлом та тінню.
+				</p>
+			</div>
+			<div class="image">
+				<Expandable breakpoint={768}>
+					<SlideShow
+						width={1280}
+						height={852}
+						x2={true}
+						slides={1}
+						path="/i/tekhnika/fotoparosolya-160"
+					/>
+				</Expandable>
+			</div>
+		</div>
+		<div class="blockWithImage">
+			<div class="title">
+				<h3>Глибокий рефлектор з сотами</h3>
+				<!-- <h4>160 cм</h4> -->
+			</div>
+			<div class="text">
+				<p>
+					Це інструмент, який використовується в студійній фотографії для створення жорсткого,
+					спрямованого світла. Він має форму параболічного дзеркала, яке фокусує світло від джерела
+					світла в вузький пучок
+				</p>
+			</div>
+			<div class="image">
+				<Expandable breakpoint={768}>
+					<SlideShow
+						width={1280}
+						height={852}
+						x2={true}
+						slides={1}
+						path="/i/tekhnika/hlyboky-reflektor-z-sotamy"
+					/>
+				</Expandable>
+			</div>
+		</div>
+		<div class="blockWithImage">
+			<div class="title">
 				<h3>Гнучкі дзеркала</h3>
 				<h4>Золоте і срібне</h4>
 			</div>
