@@ -120,7 +120,7 @@
 		<div class="menu">
 			<a class:active={slideNo === 1} href="/fotozony">фотозони<br />Sky Studio</a>
 			<a class:active={slideNo === 2} href="/tekhnika">наша техніка<br />та обладнання</a>
-			<a class:active={slideNo === 3} href="/kryla">крила<br />в оренду</a>
+			<!-- <a class:active={slideNo === 3} href="/kryla">крила<br />в оренду</a> -->
 			<a class:active={slideNo === 4} href="/sukni">аксесуари і<br /> одяг в оренду</a>
 			<a class:active={slideNo === 5} href="/pro">про<br />нашу студію</a>
 		</div>

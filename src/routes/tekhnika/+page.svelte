@@ -508,6 +508,49 @@
 				</Expandable>
 			</div>
 		</div>
+		<div class="blockWithImage">
+			<div class="title">
+				<h3>Кольорове/постійне біколор</h3>
+				<!-- <h4>Visico RD-024, 91 х 122 см</h4> -->
+			</div>
+			<div class="text">
+				<p></p>
+			</div>
+			<div class="image">
+				<!-- <Expandable breakpoint={768}>
+					<SlideShow
+						width={1280}
+						height={852}
+						x2={true}
+						slides={4}
+						path="/i/tekhnika/snih-mashyna"
+					/>
+				</Expandable> -->
+			</div>
+		</div>
+		<div class="blockWithImage">
+			<div class="title">
+				<h3>Проектор ViewSonic PX747-4k</h3>
+				<!-- <h4>Visico RD-024, 91 х 122 см</h4> -->
+			</div>
+			<div class="text">
+				<p>
+					Для покращення вашого досвіду в нашій фотостудії, ми раді запропонувати використання
+					проектора ViewSonic PX747-4K. Завдяки вражаючій яскравості 3500 ANSI люменів та реальному
+					4K UHD роздільній здатності з технологією XPR, ви отримаєте надзвичайно чітке та яскраве
+					зображення навіть при студійному освітленні. Підтримка HDR контенту забезпечить
+					неперевершену деталізацію як у світлих, так і в темних ділянках, що ідеально підходить для
+					перегляду відзнятого матеріалу, створення фонів або демонстрації портфоліо на великому
+					екрані. Легке підключення через два порти HDMI робить його зручним інструментом для
+					втілення ваших творчих ідей під час оренди студії.
+				</p>
+			</div>
+			<div class="image">
+				<Expandable breakpoint={768}>
+					<SlideShow width={1280} height={852} x2={true} slides={1} path="/i/tekhnika/tekh20" />
+				</Expandable>
+			</div>
+		</div>
 		<ContactUs />
 	</div>
 </section>

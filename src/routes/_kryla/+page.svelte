@@ -23,7 +23,7 @@
 		imagesizes="100vw"
 		type="image/avif"
 	/>
-	<ArticleSchemaMarkup {title} {description} image={slides[index]} route="/kryla" />
+	<ArticleSchemaMarkup {title} {description} image={slides[index]} route="/_kryla" />
 </svelte:head>
 
 <Hero slideNo={index} />
