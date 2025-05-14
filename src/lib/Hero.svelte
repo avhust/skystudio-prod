@@ -286,7 +286,8 @@
 				@media screen and (min-width: $breakpoint) {
 					display: grid;
 					grid-auto-flow: column;
-					grid-template-columns: 1fr 1fr 0.8fr 1.2fr 1fr;
+					grid-template-columns: 1fr 1fr 1.2fr 1fr;
+					// grid-template-columns: 1fr 1fr 0.8fr 1.2fr 1fr;
 					// grid-template-columns: 1.45fr 1.45fr 1.2fr 1.1fr 0.8fr;
 					grid-template-rows: 1fr;
 					gap: 0;
