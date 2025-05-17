@@ -32,7 +32,7 @@
 		<div class="infoLineNew">
 			<div class="text">
 				Оренда&nbsp;фотостудії:
-				<span class="price">750 грн/год</span>
+				<span class="price">850 грн/год</span>
 				<br />(cвітло та обладнання входять у вартість оренди)
 			</div>
 		</div>
